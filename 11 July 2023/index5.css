@@ -1,0 +1,71 @@
+
+
+*{
+    margin: auto;
+}
+
+.mainHead{
+    height: 173px;
+    width: auto;
+    background-image: url(banana\ leaf\ 2.webp);
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    position: relative;
+    background-color: rgba(0, 255, 255, 0.322);
+    height: auto;
+    width: 100%;
+    z-index: 100;
+}
+
+.details{
+    display: flex;
+    list-style: none;
+}
+
+.details li{
+    margin: 0 12px;
+    height: 12px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.details li a{
+    text-decoration: wavy;
+    color: rgb(252, 252, 252);
+    
+}
+
+.details li a:hover{
+    color: orange;
+    font-size: 35px;
+
+}
+
+.foodTag2{
+    height: 50px;
+    width: 200px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+table, td, th{
+    border: 3px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    text-align: center;
+}
